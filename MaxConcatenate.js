@@ -1,19 +1,3 @@
-module.exports = maxConcatenate;
-
-//If run with any command line arguments
-if (process.argv.slice(2).length > 0) {
-    var commandLineArgs = process.argv.slice(2);
-
-    var inputArray = commandLineArgs.map( (arg) => {
-        return parseInt(arg);
-    });
-
-    console.log("Input: " + inputArray);
-
-    var result = maxConcatenate(inputArray);
-    console.log("Solution: " + result);
-}
-
 function maxConcatenate(inputArray) {
     inputArray.sort(sortByMaxConcatValue);
 
@@ -49,4 +33,20 @@ function intToDigitArray(number) {
     }
 
     return digits.reverse();
+}
+
+module.exports = maxConcatenate;
+
+//If run with any command line arguments
+if (process.argv.slice(2).length > 0) {
+    var commandLineArgs = process.argv.slice(2);
+
+    var inputArray = commandLineArgs.map( (arg) => {
+        return parseInt(arg);
+    });
+
+    console.log("Input: " + inputArray);
+
+    var result = maxConcatenate(inputArray);
+    console.log("Solution: " + result);
 }

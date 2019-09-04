@@ -1,8 +1,7 @@
-#Rooster Park Interview
+# Rooster Park Interview
 
-###**Usage:**
+### **Usage:**
 
-<br />
 See example inputs and solutions:
 
 `node ExampleSolutions.js`

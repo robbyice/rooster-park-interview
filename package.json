@@ -2,7 +2,7 @@
   "name": "interview-rooster-park",
   "version": "1.0.0",
   "description": "",
-  "main": "Solution.js",
+  "main": "MaxConcatenate.js",
   "scripts": {
     "test": "jasmine"
   },

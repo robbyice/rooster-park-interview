@@ -24,7 +24,6 @@ function sortByMaxConcatValue(a, b) {
 }
 
 function intToDigitArray(number) {
-    console.log("number: " + number);
     var curr = number;
     var digits = [];
 
@@ -51,9 +50,3 @@ console.log("Expected: " + 4239);
 var result3 = maxConcatenate(input3);
 console.log("Actual: " + result3);
 console.log("Expected: " + 110100);
-
-// var result4 = intToDigitArray(123);
-// console.log(result4);
-//
-// var result5 = sortByMaxConcatValue([1, 2], [1]);
-// console.log(result5);

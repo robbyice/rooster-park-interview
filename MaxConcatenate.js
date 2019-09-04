@@ -1,3 +1,5 @@
+module.exports = maxConcatenate;
+
 function maxConcatenate(inputArray) {
     inputArray.sort(sortByMaxConcatValue);
 
